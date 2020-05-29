@@ -34,7 +34,7 @@ def EffectOfMelaninConcentration():
     N_bins = int(1e3)
     dz = d / N_bins
     
-    N_photons = int(1e4)
+    N_photons = int(5e6)
     
     pDW = np.zeros((3, N_bins))
     dDR = np.zeros(3)
@@ -91,7 +91,7 @@ def EffectOfWavelength():
     N_bins = int(1e3)
     dz = d / N_bins
     
-    N_photons = int(1e4)
+    N_photons = int(5e6)
     
     pDW = np.zeros((4, N_bins))
     dDR = np.zeros(4)
