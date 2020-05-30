@@ -96,4 +96,7 @@ if __name__ == '__main__':
     dDT = 0
     pDW = np.zeros(N_bins)
     
-    dDR, dDT, pDW = RandomWalk(mu_att, absFact, g, n_t, n_m, alpha_critical, d, dz, dDR, dDT, pDW)
+    N_photons = int(1e3) # number of photons to be launched
+    
+    for n in range(N_photons):
+        dDR, dDT, pDW = RandomWalk(mu_att, absFact, g, n_t, n_m, alpha_critical, d, dz, dDR, dDT, pDW)
