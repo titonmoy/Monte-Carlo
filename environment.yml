@@ -1,10 +1,9 @@
-name: BIEN202Project2Tonmoy
+name: MonteCarlo
 channels:
   - defaults
 dependencies:
-  - numpy
   - matplotlib
   - jupyterlab
   - tabulate
-prefix: /home/titonmoy/miniconda3/envs/BIEN202Project2Tonmoy
+  - numpy
 
