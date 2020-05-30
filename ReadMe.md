@@ -11,6 +11,7 @@ The following libraries have been used for the python implementation
 - numpy (for array variables)
 - matplotlib (for graphical representation of simulation results)
 - tabulate (for tabular representation of simulation results)
+
 The conda environment used for the project can be recreated using [environment.yml](environment.yml).
 
 A detailed description of the project is given in the [Melanin.ipynb](Melanin.ipynb) notebook.
