@@ -2,7 +2,7 @@
 
 This is a class project for Contemporary Approaches to Mathematical and Quantitative Biology. It contains the python implementation for Monte Carlo simulation of light-tissue interaction. This is a simple implementaion considering only a single layer of tissue in a surrounding medium. The project mainly focuses on simulating the light absorbing charactericts of melanin in human epidermis.
 
-The algorithm, presented in the block diagram below, is based on the work of Wang et al. [1]. The optical characteristics of the tissue is taken from [2].
+The algorithm, presented in the block diagram below, is based on the work of Wang et al. [1]. The optical properties of epidermis is taken from [2].
 
 <img src="images/BlockDiagram.png" width="700" />
 
